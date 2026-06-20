@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #111112;
+    font-family: 'Playfair Display', serif;
+}
+
+.swiper-slide {
+    opacity: 0.4;
+    transition: all 0.5s ease;
+}
+
+.swiper-slide-active {
+    opacity: 1;
+}
+
+.swiper-slide .group {
+    transition: transform 0.5s ease;
+}
+
+.swiper-slide-active .group {
+    transform: scale(1.05);
+}
+
+@keyframes testimonials-scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-testimonials {
+    animation: testimonials-scroll 45s linear infinite;
+}
+
+.animate-testimonials:hover {
+    animation-play-state: paused;
+}
+
+@keyframes brandsScroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes brandsScroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.brands-marquee {
+    animation: brandsScroll 35s linear infinite;
+}
+
+.brands-marquee:hover {
+    animation-play-state: paused;
+}
+
+.brands-marquee:hover,
+.brands-marquee-reverse:hover {
+    animation-play-state: paused;
+}
