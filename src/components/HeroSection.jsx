@@ -54,7 +54,7 @@ export default function HeroSection() {
     };
 
     return (
-        <section className="relative min-h-screen w-full overflow-hidden bg-[#0F0F10]">
+        <section className="relative min-h-screen w-full overflow-hidden bg-transparent">
             {/* Background */}
 
             <motion.div
