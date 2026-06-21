@@ -74,7 +74,7 @@ const results = [
     {
         id: 5,
         brand: "Rentelly",
-        logo: "/results-logos/rentelly-logo.jfif",
+        logo: "/results-logos/Rentelly-logo.jfif",
         platform: "Facebook",
         period: "Apr 2025 – Jun 2025",
         metrics: [

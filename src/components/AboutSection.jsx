@@ -62,7 +62,7 @@ export default function AboutMe() {
     };
 
     return (
-        <section className="relative w-full py-12 md:py-24">
+        <section className="relative z-999 w-full py-12 md:py-24">
             {/* Top Border */}
             <div className="absolute top-0 left-0 w-full h-px bg-white/10" />
 

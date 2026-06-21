@@ -7,7 +7,7 @@ const socialPosts = [
         brand: "Polar",
         industry: "Food & Beverage",
         platform: "Facebook",
-        link: "https://2u.pw/RFxfqpyZ",
+        link: "https://www.facebook.com/photo.php?fbid=547043281588900&set=pb.100088496996666.-2207520000&type=3&locale=ar_AR",
         image: "/social-posts/polar-01.png",
     },
 
@@ -16,7 +16,7 @@ const socialPosts = [
         brand: "العالمية للتعدين",
         industry: "Industrial & Services",
         platform: "Facebook",
-        link: "https://surl.li/iinnbg",
+        link: "https://www.facebook.com/share/p/1Ygby36gmS/",
         image: "/social-posts/global-mining-01.png",
     },
     {
@@ -24,7 +24,7 @@ const socialPosts = [
         brand: "Polar",
         industry: "Food & Beverage",
         platform: "Facebook",
-        link: "https://2u.pw/rPVeb2mI",
+        link: "https://www.facebook.com/photo.php?fbid=912191187609142&set=pb.100064548077226.-2207520000&type=3&locale=ar_AR",
         image: "/social-posts/polar-03.png",
     },
     {
@@ -40,7 +40,7 @@ const socialPosts = [
         brand: "الطيبات",
         industry: "Food & Beverage",
         platform: "Facebook",
-        link: "https://2u.pw/O2ub42j3",
+        link: "https://www.facebook.com/photo.php?fbid=709222094572720&set=pb.100064548077226.-2207520000&type=3&locale=ar_AR",
         image: "/social-posts/altaibat-01.png",
     },
     {
@@ -48,7 +48,7 @@ const socialPosts = [
         brand: "د. محمود شعير",
         industry: "Medical",
         platform: "Facebook",
-        link: "https://surl.gd/ubepyx",
+        link: "https://www.facebook.com/share/p/14kKHa2m4Gy/",
         image: "/social-posts/shoeir-01.png",
     },
 
@@ -57,16 +57,16 @@ const socialPosts = [
         brand: "Pablo Burger",
         industry: "Food & Beverage",
         platform: "Facebook",
-        link: "https://www.facebook.com/photo?fbid=122199594626334839&set=a.122138418602334839&locale=ar_AR ",
+        link: "https://www.facebook.com/share/p/1DzpHU86Ks/",
         image: "/social-posts/pablo-01.png",
     },
     {
         id: "rentelly-01",
         brand: "Rentelly",
-        industry: "Technology",
+        industry: "E-Commerce",
         platform: "Facebook",
-        link: "https://2u.pw/w7NuJC",
-        image: "/social-posts/rentelly-01.png",
+        link: "https://www.facebook.com/share/p/1BdfEL5bGJ/",
+        image: "/social-posts/Rentelly-01.png",
     },
 
     {
@@ -74,31 +74,15 @@ const socialPosts = [
         brand: "الطيبات",
         industry: "Food & Beverage",
         platform: "Facebook",
-        link: "https://2u.pw/pU53iSJL",
+        link: "https://www.facebook.com/photo.php?fbid=709222094572720&set=pb.100064548077226.-2207520000&type=3&locale=ar_AR",
         image: "/social-posts/altaibat-04.png",
-    },
-    {
-        id: "tedent-02",
-        brand: "TEdent Dent",
-        industry: "Medical",
-        platform: "Facebook",
-        link: "https://2u.pw/GuWgv",
-        image: "/social-posts/tedent-02.png",
-    },
-    {
-        id: "aldiwan-02",
-        brand: "Al Diwan",
-        industry: "Education",
-        platform: "Facebook",
-        link: "https://2u.pw/GrUzMm",
-        image: "/social-posts/diwan-02.png",
     },
     {
         id: "altaibat-02",
         brand: "الطيبات",
         industry: "Food & Beverage",
         platform: "Facebook",
-        link: "https://2u.pw/a04b6Fz0",
+        link: "https://www.facebook.com/share/p/1BMZ3wLfg6/",
         image: "/social-posts/altaibat-02.png",
     },
     {
@@ -106,27 +90,42 @@ const socialPosts = [
         brand: "بن العراب",
         industry: "Food & Beverage",
         platform: "Facebook",
-        link: "https://2u.pw/8PpyA",
+        link: "https://www.facebook.com/share/p/1F3X3o7xur/",
         image: "/social-posts/elarab-01.png",
-    },
-
-    {
-        id: "loaloa-01",
-        brand: "لؤلؤ",
-        industry: "Retail & Fashion",
-        platform: "Facebook",
-        link: null,
-        image: "/social-posts/loaloa-01.png",
     },
 
 
     {
         id: "lucky-leaf-01",
         brand: "Lucky Leaf / ZAT & COY",
-        industry: "Industrial & Services",
+        industry: "E-Commerce",
         platform: "Facebook",
-        link: "https://2u.pw/pCz2SY",
+        link: "https://www.facebook.com/share/p/1ak1hhUGio/",
         image: "/social-posts/lucky-01.png",
+    },
+    {
+        id: "loaloa-01",
+        brand: "لؤلؤ",
+        industry: "Retail & Fashion",
+        platform: "Facebook",
+        link: "https://www.facebook.com/share/p/1BWURDGtzv/",
+        image: "/social-posts/loaloa-01.jfif",
+    },
+    {
+        id: "lucky-leaf-02",
+        brand: "Lucky Leaf / ZAT & COY",
+        industry: "E-Commerce",
+        platform: "Facebook",
+        link: "https://www.facebook.com/share/p/1A7TGJiQih/",
+        image: "/social-posts/lucky-02.png",
+    },
+    {
+        id: "lucky-leaf-03",
+        brand: "Lucky Leaf / ZAT & COY",
+        industry: "E-Commerce",
+        platform: "Facebook",
+        link: "https://www.facebook.com/share/p/19EH2URgER/",
+        image: "/social-posts/lucky-03.png",
     },
 
     {
@@ -134,35 +133,25 @@ const socialPosts = [
         brand: "AGROCAN",
         industry: "Industrial & Services",
         platform: "Facebook",
-        link: "https://2u.pw/byFDl",
+        link: "https://www.facebook.com/share/p/17j49v7FnC/",
         image: "/social-posts/agrocan-01.png",
     },
     {
-        id: "altaibat-03",
-        brand: "الطيبات",
-        industry: "Food & Beverage",
-        platform: "Facebook",
-        link: "https://2u.pw/QPvdjg0w",
-        image: "/social-posts/altaibat-03.png",
-    },
-
-
-    {
         id: "rentelly-02",
         brand: "Rentelly",
-        industry: "Technology",
+        industry: "E-Commerce",
         platform: "Facebook",
-        link: "https://2u.pw/5mdCrb",
-        image: "/social-posts/rentelly-02.png",
+        link: "https://www.facebook.com/share/p/1LStz1VgTn/",
+        image: "/social-posts/Rentelly-02.png",
     },
 
     {
         id: "rentelly-03",
         brand: "Rentelly",
-        industry: "Technology",
+        industry: "E-Commerce",
         platform: "Facebook",
-        link: "https://url-shortener.me/2HDZ",
-        image: "/social-posts/rentelly-03.png",
+        link: "https://www.facebook.com/share/p/1BSVdTtDkB/",
+        image: "/social-posts/Rentelly-03.png",
     },
 
     {
@@ -170,7 +159,7 @@ const socialPosts = [
         brand: "Core Academy",
         industry: "Education",
         platform: "Facebook",
-        link: "https://2u.pw/Q4CB2aKm",
+        link: "https://www.facebook.com/share/1Rhaghkgy6/",
         image: "/social-posts/core-01.png",
     },
 
@@ -179,7 +168,7 @@ const socialPosts = [
         brand: "Core Academy",
         industry: "Education",
         platform: "Facebook",
-        link: "https://2u.pw/uTHS0I5x",
+        link: "https://www.facebook.com/share/1EZjgjJ3Kz/",
         image: "/social-posts/core-02.png",
     },
 
@@ -188,24 +177,32 @@ const socialPosts = [
         brand: "Core Academy",
         industry: "Education",
         platform: "Facebook",
-        link: "https://2u.pw/BoCc5Gvx",
+        link: "https://www.facebook.com/share/p/1LGw96jqLx/",
         image: "/social-posts/core-03.png",
     },
     {
         id: "elhendawy-01",
         brand: "El Hendawy Group",
-        industry: "Retail & Fashion",
+        industry: "Home & Living",
         platform: "Facebook",
-        link: "https://surl.li/bjkedv",
-        image: "/social-posts/elhendawy-01.png",
+        link: "https://www.facebook.com/share/p/191SZvDAk1/",
+        image: "/social-posts/elhendaway-01.png",
     },
     {
         id: "khaled-diwan-01",
         brand: "مركز خالد ديوان للأشعة",
         industry: "Medical",
         platform: "Facebook",
-        link: "https://surl.li/skkwwx",
+        link: "https://www.facebook.com/share/p/1CoZu5YRno/",
         image: "/social-posts/khaled-diwan-01.png",
+    },
+    {
+        id: "khaled-diwan-02",
+        brand: "مركز خالد ديوان للأشعة",
+        industry: "Medical",
+        platform: "Facebook",
+        link: "https://www.facebook.com/share/p/1DXeNNXpht/",
+        image: "/social-posts/khaled-diwan-02.png",
     },
 
     {
@@ -213,34 +210,26 @@ const socialPosts = [
         brand: "TEdent Dent",
         industry: "Medical",
         platform: "Facebook",
-        link: "https://2u.pw/giZ0n",
+        link: "https://www.facebook.com/share/p/14fD7aMqyy7/",
         image: "/social-posts/tedent-01.png",
-    },
-
-    {
-        id: "polar-02",
-        brand: "Polar",
-        industry: "Food & Beverage",
-        platform: "Facebook",
-        link: "https://2u.pw/Bueh9jV0",
-        image: "/social-posts/polar-02.png",
     },
     {
         id: "jawharat-ellohom-01",
-        brand: "جوهرة اللحوم",
+        brand: "حواوشي علاء",
         industry: "Food & Beverage",
         platform: "Facebook",
-        link: "https://2u.pw/70XHgLrD",
-        image: "/social-posts/Jawharat.png",
+        link: "https://www.facebook.com/share/p/14jxHeSvFb3/",
+        image: "/social-posts/3alaa2.jpg",
     },
     {
         id: "altaibat-05",
         brand: "الطيبات",
         industry: "Food & Beverage",
         platform: "Facebook",
-        link: "https://2u.pw/fxxVQ3v0",
+        link: "https://www.facebook.com/share/p/198mD1ayrt/",
         image: "/social-posts/altaibat-05.png",
     },
+
 ];
 
 const filters = [
@@ -248,9 +237,10 @@ const filters = [
     "Food & Beverage",
     "Medical",
     "Education",
-    "Technology",
+    "E-Commerce",
     "Industrial & Services",
     "Retail & Fashion",
+    "Home & Living",
 ];
 
 

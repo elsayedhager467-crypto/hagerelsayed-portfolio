@@ -54,14 +54,11 @@ export default function HeroSection() {
     };
 
     return (
-        <section className="relative min-h-screen w-full overflow-hidden bg-[#0F0F10]">
+        <section className="relative min-h-screen h-fit w-full bg-[#0F0F10]">
             {/* Background */}
 
             <motion.div
-                initial={{ opacity: 0, scale: 1.05 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 1.5 }}
-                className="absolute inset-0"
+                className="absolute top-0 left-0 w-full h-full overflow-hidden"
             >
                 <div
                     style={{
@@ -92,7 +89,17 @@ export default function HeroSection() {
                 variants={container}
                 initial="hidden"
                 animate="show"
-                className="absolute z-10 inset-0 flex flex-col justify-center items-center text-center p-6"
+                className="
+        relative
+        z-10
+        flex
+        flex-col
+        justify-center
+        items-center
+        text-center
+        p-12
+        min-h-screen
+    "
             >
                 <motion.span
                     variants={fadeUp}
