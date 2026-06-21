@@ -19,18 +19,18 @@ const services = [
         icon: Layers,
         title: "Campaigns & Content Planning",
     },
-    {
-        icon: Pencil,
-        title: "Scriptwriting",
-    },
+    // {
+    //     icon: Pencil,
+    //     title: "Scriptwriting",
+    // },
     {
         icon: BadgeCheck,
         title: "Personal Branding",
     },
-    // {
-    //     icon: Brush,
-    //     title: "Creative Direction",
-    // },
+    {
+        icon: Brush,
+        title: "Creative Direction",
+    },
     {
         icon: Camera,
         title: "Account & Production Management",
