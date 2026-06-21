@@ -107,7 +107,7 @@ export default function AboutMe() {
                                             border-white/10
                                             bg-black/20
                                             p-5
-                                            min-h-[160px]
+                                            h-[180px]
                                             transition-all
                                             duration-300
                                             hover:border-[#ff4d9d]/60
