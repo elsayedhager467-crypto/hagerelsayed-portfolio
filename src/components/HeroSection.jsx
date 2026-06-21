@@ -54,11 +54,11 @@ export default function HeroSection() {
     };
 
     return (
-        <section className="relative min-h-screen h-fit w-full bg-[#0F0F10]">
+        <section className="relative min-h-screen w-full overflow-hidden bg-[#0F0F10]">
             {/* Background */}
 
             <motion.div
-                className="absolute top-0 left-0 w-full h-full overflow-hidden"
+                className="absolute inset-0 -z-50 pointer-events-none overflow-hidden"
             >
                 <div
                     style={{
@@ -91,7 +91,7 @@ export default function HeroSection() {
                 animate="show"
                 className="
         relative
-        z-10
+        z-20
         flex
         flex-col
         justify-center
