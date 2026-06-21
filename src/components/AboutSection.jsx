@@ -14,19 +14,19 @@ const services = [
         title: "Content Strategy",
     },
     {
-        icon: Layers,
+        icon: Target,
         title: "Campaigns & Content Planning",
     },
     {
-        icon: Pencil,
+        icon: Target,
         title: "Scriptwriting",
     },
     {
-        icon: Sparkles,
+        icon: Target,
         title: "Personal Branding",
     },
     {
-        icon: Palette,
+        icon: Target,
         title: "Creative Direction",
     },
     {
