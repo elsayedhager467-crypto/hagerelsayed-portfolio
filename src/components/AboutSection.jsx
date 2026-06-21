@@ -65,7 +65,7 @@ export default function AboutMe() {
                         </p>
                     </motion.div>
 
-                    {/* RIGHT */}
+                    {/* RIGHT
                     <motion.div
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
@@ -124,7 +124,7 @@ export default function AboutMe() {
                                 );
                             })}
                         </div>
-                    </motion.div>
+                    </motion.div> */}
                 </div>
             </div>
 

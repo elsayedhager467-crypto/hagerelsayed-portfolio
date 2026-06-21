@@ -63,7 +63,7 @@ const socialPosts = [
     {
         id: "rentelly-01",
         brand: "Rentelly",
-        industry: "E-Commerce",
+        industry: "Real Estate",
         platform: "Facebook",
         link: "https://www.facebook.com/share/p/1BdfEL5bGJ/",
         image: "/social-posts/Rentelly-01.png",
@@ -139,7 +139,7 @@ const socialPosts = [
     {
         id: "rentelly-02",
         brand: "Rentelly",
-        industry: "E-Commerce",
+        industry: "Real Estate",
         platform: "Facebook",
         link: "https://www.facebook.com/share/p/1LStz1VgTn/",
         image: "/social-posts/Rentelly-02.png",
@@ -148,7 +148,7 @@ const socialPosts = [
     {
         id: "rentelly-03",
         brand: "Rentelly",
-        industry: "E-Commerce",
+        industry: "Real Estate",
         platform: "Facebook",
         link: "https://www.facebook.com/share/p/1BSVdTtDkB/",
         image: "/social-posts/Rentelly-03.png",
@@ -238,6 +238,7 @@ const filters = [
     "Medical",
     "Education",
     "E-Commerce",
+    "Real Estate",
     "Industrial & Services",
     "Retail & Fashion",
     "Home & Living",
