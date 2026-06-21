@@ -19,10 +19,10 @@ const services = [
         icon: Layers,
         title: "Campaigns & Content Planning",
     },
-    // {
-    //     icon: Pencil,
-    //     title: "Scriptwriting",
-    // },
+    {
+        icon: Pencil,
+        title: "Scriptwriting",
+    },
     // {
     //     icon: BadgeCheck,
     //     title: "Personal Branding",
