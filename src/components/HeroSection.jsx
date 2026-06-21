@@ -67,7 +67,7 @@ export default function HeroSection() {
                         position: "relative",
                     }}
                 >
-                    <SideRays
+                    {/* <SideRays
                         speed={3}
                         rayColor1="#7E5A6A"
                         rayColor2="#D36A98"
@@ -79,7 +79,7 @@ export default function HeroSection() {
                         blend={0.7}
                         falloff={1.6}
                         opacity={1}
-                    />
+                    /> */}
                 </div>
             </motion.div>
 
