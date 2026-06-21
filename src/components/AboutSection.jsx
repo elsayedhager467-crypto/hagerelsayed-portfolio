@@ -113,7 +113,7 @@ export default function AboutMe() {
 
                         <motion.div
                             variants={container}
-                            className="flex flex-col gap-3"
+                            className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-3"
                         >
                             {services.map((service, index) => {
                                 const Icon = service.icon;
@@ -127,14 +127,13 @@ export default function AboutMe() {
                                             rounded-xl
                                             border
                                             border-white/10
-                                            bg-black/20
+                                        
                                             p-5
-                                            min-w-[160px]
                                             min-h-[160px]
                                             transition-all
                                             duration-300
                                             hover:border-[#ff4d9d]/60
-                                            hover:bg-white/[0.02]
+                                        
                                         "
                                     >
                                         <Icon
