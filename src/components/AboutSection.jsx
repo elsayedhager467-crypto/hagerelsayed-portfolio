@@ -76,7 +76,15 @@ export default function AboutMe() {
                             What I Do
                         </p>
 
-                        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-3">
+                        <div className="
+grid
+grid-cols-1
+sm:grid-cols-2
+md:grid-cols-3
+lg:grid-cols-2
+xl:grid-cols-3
+gap-3
+">
                             {services.map((service, index) => {
                                 const Icon = service.icon;
 
@@ -97,12 +105,11 @@ export default function AboutMe() {
                                             border-white/10
                                             bg-black/20
                                             p-5
-                                            min-h-[180px]
+                                            min-h-[160px]
                                             transition-all
                                             duration-300
                                             hover:border-[#ff4d9d]/60
                                             hover:bg-white/[0.02]
-                                            overflow-hidden
                                         "
                                     >
                                         <Icon
