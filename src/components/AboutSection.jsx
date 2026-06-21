@@ -52,7 +52,7 @@ export default function AboutMe() {
             <div className="absolute top-0 left-0 w-full h-px bg-white/10" />
 
             <div className="max-w-7xl mx-auto px-6 lg:px-10">
-                <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_1.2fr] gap-12 lg:gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
 
                     {/* LEFT */}
                     <motion.div
