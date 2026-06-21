@@ -73,7 +73,7 @@ export default function AboutMe() {
                 whileInView="show"
                 viewport={{ once: true, amount: 0.2 }}
             >
-                <div className="flex flex-col gap-8 md:flex-row md:gap-10 lg:gap-20">
+                <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_1.2fr] gap-12 lg:gap-8">
 
                     {/* LEFT */}
                     <motion.div
@@ -127,13 +127,16 @@ export default function AboutMe() {
                                             rounded-xl
                                             border
                                             border-white/10
-                                        
                                             p-5
                                             min-h-[160px]
                                             transition-all
                                             duration-300
                                             hover:border-[#ff4d9d]/60
-                                        
+                                            flex
+                                            flex-col
+                                            items-center
+                                            justify-center
+                                            text-center
                                         "
                                     >
                                         <Icon
