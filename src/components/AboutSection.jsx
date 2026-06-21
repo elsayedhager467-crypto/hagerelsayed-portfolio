@@ -25,10 +25,10 @@ const services = [
     //     icon: Sparkles,
     //     title: "Personal Branding",
     // },
-    {
-        icon: Palette,
-        title: "Creative Direction",
-    },
+    // {
+    //     icon: Palette,
+    //     title: "Creative Direction",
+    // },
     {
         icon: Camera,
         title: "Account & Production Management",
