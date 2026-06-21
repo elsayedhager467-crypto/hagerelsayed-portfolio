@@ -102,6 +102,7 @@ export default function AboutMe() {
                                             duration-300
                                             hover:border-[#ff4d9d]/60
                                             hover:bg-white/[0.02]
+                                            overflow-hidden
                                         "
                                     >
                                         <Icon
