@@ -14,19 +14,19 @@ const services = [
         title: "Content Strategy",
     },
     {
-        icon: Target,
+        icon: Layers,
         title: "Campaigns & Content Planning",
     },
     {
-        icon: Target,
+        icon: Pencil,
         title: "Scriptwriting",
     },
+    // {
+    //     icon: Sparkles,
+    //     title: "Personal Branding",
+    // },
     {
-        icon: Target,
-        title: "Personal Branding",
-    },
-    {
-        icon: Target,
+        icon: Palette,
         title: "Creative Direction",
     },
     {
@@ -104,13 +104,17 @@ export default function AboutMe() {
                                             hover:bg-white/[0.02]
                                         "
                                     >
-                                        <div
+                                        <Icon
+                                            size={52}
+                                            strokeWidth={1.8}
                                             className="
-        w-[52px]
-        h-[52px]
-        mb-4
-        mx-auto
-    "
+                                                text-[#ff4d9d]
+                                                mb-4
+                                                transition-transform
+                                                duration-300
+                                                group-hover:scale-110
+                                                mx-auto
+                                            "
                                         />
 
                                         <h3 className="text-[#E8C6D6] text-sm text-center">
