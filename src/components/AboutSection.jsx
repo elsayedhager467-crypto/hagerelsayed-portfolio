@@ -47,7 +47,7 @@ const services = [
 
 export default function AboutMe() {
     return (
-        <section className="relative w-full py-12 md:py-24 overflow-hidden">
+        <section className="relative w-full py-12 md:py-24 overflow-hidden isolate">
             {/* Top Border */}
             <div className="absolute top-0 left-0 w-full h-px bg-white/10" />
 
@@ -122,7 +122,6 @@ export default function AboutMe() {
                                                 mb-4
                                                 transition-transform
                                                 duration-300
-                                                group-hover:scale-110
                                                 mx-auto
                                             "
                                         />
