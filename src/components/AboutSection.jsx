@@ -66,11 +66,11 @@ export default function AboutMe() {
                     </motion.div>
 
                     {/* RIGHT */}
-                    <motion.div
-                        initial={{ opacity: 0 }}
-                        whileInView={{ opacity: 1 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.5 }}
+                    <div
+                    // initial={{ opacity: 0 }}
+                    // whileInView={{ opacity: 1 }}
+                    // viewport={{ once: true }}
+                    // transition={{ duration: 0.5 }}
                     >
                         <p className="uppercase tracking-[0.25em] text-2xl font-semibold text-[#ff4d9d] mb-5 text-center md:text-left">
                             What I Do
@@ -124,7 +124,7 @@ export default function AboutMe() {
                                 );
                             })}
                         </div>
-                    </motion.div>
+                    </div>
                 </div>
             </div>
 
