@@ -10,13 +10,13 @@ import "swiper/css/navigation";
 
 
 const reels = [
-    { id: 1, title: "Fashion Campaign", video: "https://res.cloudinary.com/ddef8je0a/video/upload/v1781984763/Sequence_01_lq0vf8.mp4" },
-    { id: 2, title: "Restaurant Content", video: "https://res.cloudinary.com/ddef8je0a/video/upload/v1781984527/reel_3_b0ozlz.mp4" },
+    { id: 1, title: "Ibrahim Anwar", video: "https://res.cloudinary.com/ddef8je0a/video/upload/v1782054116/0620_2_jeggyb.mp4" },
+    { id: 2, title: "Core Academy", video: "https://res.cloudinary.com/ddef8je0a/video/upload/v1781984527/reel_3_b0ozlz.mp4" },
     { id: 3, title: "Product Launch", video: "https://res.cloudinary.com/ddef8je0a/video/upload/v1781985123/%D8%B9%D8%A7%D8%A6%D8%B4%D8%A9_6_to7ssf.mp4" },
-    { id: 4, title: "Personal Branding", video: "https://res.cloudinary.com/ddef8je0a/video/upload/v1781984816/5_l2o6lx.mp4" },
-    { id: 5, title: "Personal Branding", video: "https://res.cloudinary.com/ddef8je0a/video/upload/v1781986347/0620_pqqdjp.mp4" },
-    { id: 6, title: "Personal Branding", video: "https://res.cloudinary.com/ddef8je0a/video/upload/v1781986536/0620_1_vgbend.mp4" },
-    { id: 7, title: "Personal Branding", video: "https://res.cloudinary.com/ddef8je0a/video/upload/v1781984988/6_kdiezl.mp4" },
+    { id: 4, title: "Mr.Khaled Al Ali", video: "https://res.cloudinary.com/ddef8je0a/video/upload/v1781984816/5_l2o6lx.mp4" },
+    { id: 5, title: "Dr.Nada", video: "https://res.cloudinary.com/ddef8je0a/video/upload/v1781986347/0620_pqqdjp.mp4" },
+    { id: 6, title: "Inspiring", video: "https://res.cloudinary.com/ddef8je0a/video/upload/v1781986536/0620_1_vgbend.mp4" },
+    { id: 7, title: "Mr.Khaled Al Ali", video: "https://res.cloudinary.com/ddef8je0a/video/upload/v1781984988/6_kdiezl.mp4" },
 ];
 
 /* ================= ANIMATION ================= */
