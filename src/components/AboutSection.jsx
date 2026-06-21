@@ -23,14 +23,14 @@ const services = [
     //     icon: Pencil,
     //     title: "Scriptwriting",
     // },
-    {
-        icon: BadgeCheck,
-        title: "Personal Branding",
-    },
-    {
-        icon: Brush,
-        title: "Creative Direction",
-    },
+    // {
+    //     icon: BadgeCheck,
+    //     title: "Personal Branding",
+    // },
+    // {
+    //     icon: Brush,
+    //     title: "Creative Direction",
+    // },
     {
         icon: Camera,
         title: "Account & Production Management",
