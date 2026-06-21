@@ -65,7 +65,7 @@ export default function AboutMe() {
                         </p>
                     </motion.div>
 
-                    RIGHT
+                    {/* RIGHT */}
                     <motion.div
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
@@ -76,28 +76,20 @@ export default function AboutMe() {
                             What I Do
                         </p>
 
-                        <div className="
-grid
-grid-cols-1
-sm:grid-cols-2
-md:grid-cols-3
-lg:grid-cols-2
-xl:grid-cols-3
-gap-3
-">
+                        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-3">
                             {services.map((service, index) => {
                                 const Icon = service.icon;
 
                                 return (
-                                    <motion.div
-                                        key={index}
-                                        initial={{ opacity: 0 }}
-                                        whileInView={{ opacity: 1 }}
-                                        viewport={{ once: true }}
-                                        transition={{
-                                            duration: 0.4,
-                                            delay: index * 0.05,
-                                        }}
+                                    <div
+                                        // key={index}
+                                        // initial={{ opacity: 0 }}
+                                        // whileInView={{ opacity: 1 }}
+                                        // viewport={{ once: true }}
+                                        // transition={{
+                                        //     duration: 0.4,
+                                        //     delay: index * 0.05,
+                                        // }}
                                         className="
                                             group
                                             rounded-xl
@@ -128,7 +120,7 @@ gap-3
                                         <h3 className="text-[#E8C6D6] text-sm text-center">
                                             {service.title}
                                         </h3>
-                                    </motion.div>
+                                    </div>
                                 );
                             })}
                         </div>
