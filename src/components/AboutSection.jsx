@@ -5,6 +5,7 @@ import {
     Palette,
     Camera,
     Layers,
+    Brush
 } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -21,14 +22,14 @@ const services = [
         icon: Pencil,
         title: "Scriptwriting",
     },
-    // {
-    //     icon: Sparkles,
-    //     title: "Personal Branding",
-    // },
-    // {
-    //     icon: Palette,
-    //     title: "Creative Direction",
-    // },
+    {
+        icon: Sparkles,
+        title: "Personal Branding",
+    },
+    {
+        icon: Brush,
+        title: "Creative Direction",
+    },
     {
         icon: Camera,
         title: "Account & Production Management",
