@@ -66,11 +66,11 @@ export default function AboutMe() {
                     </motion.div>
 
                     {/* RIGHT */}
-                    <div
-                    // initial={{ opacity: 0 }}
-                    // whileInView={{ opacity: 1 }}
-                    // viewport={{ once: true }}
-                    // transition={{ duration: 0.5 }}
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.5 }}
                     >
                         <p className="uppercase tracking-[0.25em] text-2xl font-semibold text-[#ff4d9d] mb-5 text-center md:text-left">
                             What I Do
@@ -81,15 +81,15 @@ export default function AboutMe() {
                                 const Icon = service.icon;
 
                                 return (
-                                    <div
-                                        // key={index}
-                                        // initial={{ opacity: 0 }}
-                                        // whileInView={{ opacity: 1 }}
-                                        // viewport={{ once: true }}
-                                        // transition={{
-                                        //     duration: 0.4,
-                                        //     delay: index * 0.05,
-                                        // }}
+                                    <motion.div
+                                        key={index}
+                                        initial={{ opacity: 0 }}
+                                        whileInView={{ opacity: 1 }}
+                                        viewport={{ once: true }}
+                                        transition={{
+                                            duration: 0.4,
+                                            delay: index * 0.05,
+                                        }}
                                         className="
                                             group
                                             rounded-xl
@@ -104,27 +104,23 @@ export default function AboutMe() {
                                             hover:bg-white/[0.02]
                                         "
                                     >
-                                        <Icon
-                                            size={52}
-                                            strokeWidth={1.8}
+                                        <div
                                             className="
-                                                text-[#ff4d9d]
-                                                mb-4
-                                                transition-transform
-                                                duration-300
-                                                group-hover:scale-110
-                                                mx-auto
-                                            "
+        w-[52px]
+        h-[52px]
+        mb-4
+        mx-auto
+    "
                                         />
 
                                         <h3 className="text-[#E8C6D6] text-sm text-center">
                                             {service.title}
                                         </h3>
-                                    </div>
+                                    </motion.div>
                                 );
                             })}
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
 
