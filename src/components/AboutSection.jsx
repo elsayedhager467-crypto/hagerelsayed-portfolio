@@ -35,6 +35,14 @@ const services = [
         icon: Camera,
         title: "Account & Production Management",
     },
+    {
+        icon: Camera,
+        title: "Account & Production Management",
+    },
+    {
+        icon: Camera,
+        title: "Account & Production Management",
+    },
 ];
 
 export default function AboutMe() {
