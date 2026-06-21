@@ -73,7 +73,7 @@ export default function AboutMe() {
                 whileInView="show"
                 viewport={{ once: true, amount: 0.2 }}
             >
-                <div className="flex flex-col gap-3 md:flex-row md:gap-10 lg:gap-20">
+                <div className="flex flex-col gap-8 md:flex-row md:gap-10 lg:gap-20">
 
                     {/* LEFT */}
                     <motion.div
