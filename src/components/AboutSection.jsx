@@ -65,7 +65,7 @@ export default function AboutMe() {
                         </p>
                     </motion.div>
 
-                    {/* RIGHT
+                    RIGHT
                     <motion.div
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
@@ -97,7 +97,7 @@ export default function AboutMe() {
                                             border-white/10
                                             bg-black/20
                                             p-5
-                                            min-h-[160px]
+                                            min-h-[180px]
                                             transition-all
                                             duration-300
                                             hover:border-[#ff4d9d]/60
@@ -124,7 +124,7 @@ export default function AboutMe() {
                                 );
                             })}
                         </div>
-                    </motion.div> */}
+                    </motion.div>
                 </div>
             </div>
 
